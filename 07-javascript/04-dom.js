@@ -5,7 +5,7 @@
 
 let userInput = document.querySelector("#userInput1");
 let copy = document.querySelector("#copy");
-let output = document.querySelector("#output");
+let output = document.querySelector("#output1");
 
 // add an event listener on the target element
 
@@ -29,7 +29,7 @@ let userInput2 = document.querySelector("#userInput2");
 userInput2.addEventListener("input", handleInput);
 let element = document.createElement("div");
 let section = document.querySelector("#inputEventExample");
-element.setAttribute("class", "output");
+element.setAttribute("class", "output2");
 section.append(element);
 
 // callback function to handle event
